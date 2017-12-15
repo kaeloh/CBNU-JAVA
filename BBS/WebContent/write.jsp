@@ -6,6 +6,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width-device=width", initial-scale="1">
+<script src="resource/ckeditor.js"></script>
+<link rel = "stylesheet" href="resource/samples/sample.css">
 <link rel="stylesheet" href="css/bootstrap.css">
 <title>MAPDA</title>
 </head>
@@ -70,7 +72,7 @@
 			<table class="tabel table-striped" style="text-align: center; border: 1px solid #dddddd">
 					<thead>
 						<tr>
-							<th colspan="2" style="background-color: #eeeeee; text-align: center;">게시판 글쓰기 양식</th>
+							<th colspan="2" style="background-color: #eeeeee; text-align: center;">글 제목</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -78,7 +80,7 @@
 							<td><input type="text" class="from-control" placeholder="글 제목" name="bbsTitle" maxlength="50"></td>
 						</tr>
 						<tr>
-							<td><textarea class="from-control" placeholder="글 내용" name="bbsContent" maxlength="2048" style="height: 350px;"></textarea>></td>
+						<textarea class="ckeditor" cols="2" id="bbsContent" name="editor1" rows="15"></textarea>
 						</tr>
 					</tbody>
 				</table>

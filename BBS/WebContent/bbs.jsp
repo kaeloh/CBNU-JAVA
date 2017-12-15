@@ -63,8 +63,7 @@
 				}
 			%>
 		</div>
-	</nav>
-	<div class="container">
+		<div class="container">
 		<div class="row">
 			<table class="tabel table-striped" style="text-align: center; border: 1px solid #dddddd">
 				<thead>
@@ -87,6 +86,7 @@
 			<a href="write.jsp" class="btn btn-primary pull-right">글쓰기</a>
 		</div>
 	</div>
+	</nav>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
